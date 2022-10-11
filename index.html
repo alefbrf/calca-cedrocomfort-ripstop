@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+
+    <title>Personalizador</title>
+</head>
+<body>
+    <div class="pagina" id="pagina">
+      <div class="esquerda">
+        <div class="acabamentos" id="acabamentos">
+            <h2>Acabamentos</h2>
+            <div class="delete">
+              <input type="button" class="deleteb" id="deleteb" style="display: none;">
+              <label for="deleteb" id="deletelabel"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+            </div>
+            <div class="divisao"></div>
+            <div class="optcontainer">
+            <div class="opcoes">
+            <form>
+                <div class="base"><div style="position:absolute ;"><img src="polo_masculino.svg" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="base" checked><label for="base">
+                    <span id="CB" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>  Base </div>
+                <div class="botoes"><div style="position:absolute ;"><img src="botoes.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="botoes"><label for="botoes">
+                    <span id="BT" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Faixas</div>
+                <div class="gola1"><div style="position:absolute ;"><img src="gola.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="gola1"><label for="gola1">
+                    <span id="ge" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Meio Cós </div>
+                <div class="gola2"><div style="position:absolute ;"><img src="carcela.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="gola2"><label for="gola2">
+                    <span id="gi" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Cós Elastico Total c/ Cordão</div><!--Gola Interior-->
+                  <div class="punho"><div style="position:absolute ;"><img src="punho.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="punho"><label for="punho">
+                    <span id="PU" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Cós Tradicional</div><!--Punho-->
+                  <div class="vista" ><div style="position:absolute ;"><img src="manga.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="vista"><label for="vista">
+                    <span id="VE" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Bolsos</div><!--Manga-->
+                  <div class="vista1" style="display: none;"><div style="position:absolute ;"><img src="peitilho1.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op7" id="vista1"><label for="vista1" >
+                    <span id="VD" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Peitilho 1</div><!--Peitilho 1-->
+                        <div class="bolsoblusa" style="display: none;"><div style="position:absolute ;"><img src="peitilho2.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op8" id="bolsobtn"><label for="bolsobtn">
+                            <span id="BSF" style="margin-left:30px ;">
+                              <img src="check-icn.svg" alt="Checked Icon" />
+                            </span>
+                          </label>Peitilho 2</div><!--Peitilho 2-->
+                          <div class="bolsoblusa1" style="display: none;"><div style="position:absolute ;"><img src="friso.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op9" id="bolso1"><label for="bolso1">
+                            <span id="BB" style="margin-left:30px ;">
+                              <img src="check-icn.svg" alt="Checked Icon" />
+                            </span>
+                          </label>Friso</div><!--Friso-->
+                            <div class="switch__container" style="display: non;">
+                                <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+                                <label for="switch-shadow"></label>
+                              </div>
+                              <div class="textobolso" style="padding-left: 8px;padding-top:3px ;display:non">Passador</div>
+                    </form></div></div>
+        </div>
+      
+        <button class="download" id="download">Download</button>
+   
+      
+      </div>
+    <div class="social_masculino" id="social_masculino">
+<div class="frente" id="frente">
+  
+    <div class="frente1">
+      <svg version="1.1" id="Camada1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      viewBox="0 0 978 1742" width="300px" style="enable-background:new 0 0 978 1742;" xml:space="preserve">
+   <g>
+     <path id="corbase" class="corbase" d="M473.4,522.8c-1.9,8.9-1.9,16.8-2.7,24.5c-1.4,13.9-2.9,27.7-3.9,41.7c-0.6,8.2-1.4,16.4-2.1,24.6
+       c-1.2,14.6-2.5,29.1-3.8,43.7c-0.8,9-1.5,18-2.3,27.1c-1.2,13.9-2.8,27.8-3.8,41.7c-0.6,8.5-1.3,17.1-2.1,25.6
+       c-1.3,14.2-2.5,28.4-3.8,42.7c-0.8,9.2-1.5,18.4-2.3,27.6c-1.2,13.7-2.2,27.5-3.7,41.2c-0.9,8.6-1.4,17.4-2.2,26.1
+       c-1.3,14.4-2.5,28.8-3.8,43.2c-0.8,8.8-1.5,17.7-2.3,26.6c-1.2,13.7-1.9,27.5-3.8,41.2c-0.6,4.5-0.5,9.2-1,13.8
+       c-1.7,17.3-2.5,34.8-4.3,52.1c-1.1,11.1-2,22.2-3,33.4c-1.4,15.5-2.8,31.1-4.1,46.6c-0.9,11.1-1.9,22.2-2.9,33.4
+       c-1.4,15.5-2.8,31.1-4.1,46.6c-0.9,11-1.9,21.9-2.9,32.9c-1.4,15.7-2.9,31.4-4.1,47.1c-0.9,11-1.9,21.9-2.9,32.9
+       c-1.5,15.7-2.7,31.4-4.1,47.1c-1,11-1.9,21.9-2.9,32.9c-1.5,16.8-3.4,33.6-4.9,50.4c-0.8,9.2-1.3,18.4-2.1,27.6
+       c-1.2,13.7-2.9,27.4-3.8,41.2c-0.6,8.2-1.4,16.4-2.1,24.6c-1.2,14.6-2.1,29.2-4,43.7c-0.3,2.5-0.2,5,0,7.5c0.2,4.2-1.9,5.6-5.8,5
+       c-10.9-1.7-21.9-2.1-32.8-3c-16.5-1.5-32.9-3.7-49.4-4.8c-9.4-0.6-18.7-1.5-28-2.3c-13.2-1.2-26.5-2.2-39.7-3.7
+       c-8.5-0.9-17-1.5-25.6-2.2c-14.6-1.2-29.1-2.4-43.7-4c-9.3-1-18.7-1.3-28.1-2.1c-13.2-1.2-26.4-2.9-39.7-3.8
+       c-8.2-0.6-16.4-1.4-24.6-2.1c-14.6-1.2-29.1-2.2-43.7-3.9c-4.2-0.5-8.5-0.7-12.8-1c-2.8-0.2-2.9-1.6-2.6-3.5
+       c1.6-10.4,2-20.9,3-31.3c1.2-13.4,2.9-26.8,3.8-40.2c0.6-8.7,1.4-17.4,2.1-26.1c1.2-15.4,2.3-30.8,4-46.2c1.1-10,1.3-20.1,2.1-30.1
+       c1.2-14.9,2.7-29.8,3.9-44.7c0.4-4.8,0.4-9.5,0.9-14.3c1.2-11.1,1.3-22.4,2.2-33.6c1.2-13.4,2.2-26.9,3.1-40.4
+       c0.9-13.6,2-27.2,3-40.9c1-13.6,2.1-27.2,3-40.9c0.9-14.5,2.2-28.9,3-43.4c0.8-14.1,2-28.2,3-42.4c1-14.6,2.1-29.2,3-43.9
+       c0.6-9.2,1.1-18.4,2-27.6c1.7-16.4,1.7-32.8,3.8-49.2c0.7-5.4,0.4-10.8,0.9-16.3c1.2-12.3,1.2-24.7,2.2-37.1
+       c1.2-14.9,2-29.9,3.1-44.9c1-13.6,2-27.2,2.9-40.9c1-15.7,3.1-31.4,3.8-47.2c0.5-11.5,1.7-23,2.3-34.6c0.8-14.9,2.6-29.8,3.8-44.7
+       c0.4-4.8,0.4-9.5,0.9-14.3c1.2-10.8,1.3-21.7,2.2-32.6c1.5-16.7,2.9-33.4,4.1-50.2c0.8-11.3,2.1-22.6,3-33.9
+       c1.3-16.5,3.3-33,4.9-49.5c0.9-9.3,1.2-18.7,2.1-28.1c1.2-12.2,2.7-24.4,3.9-36.7c0.8-8.2,1.1-16.4,2.1-24.6
+       c1.4-11.7,2.2-23.5,3.7-35.2c1-8,1.5-16,2.3-24c1.1-11.2,2.8-22.4,3.7-33.7c0.6-7.2,1.4-14.4,2.2-21.5c1.3-11.2,2.4-22.5,3.8-33.7
+       c0.8-6.8,1.4-13.7,2.2-20.5c1.7-13.8,2.2-27.7,4.8-41.4c1.3-6.6,1.4-13.4,2.2-20c1.2-9.9,2.9-19.7,3.7-29.7
+       c0.8-9.3,2.1-18.6,3.3-27.8c1.2-9.7,2.6-19.4,3.8-29.2c1.1-8.9,2-17.9,3.2-26.8c1.2-9.4,2.6-18.8,3.8-28.2c1.1-8.9,2-17.9,3.2-26.8
+       c1.5-11.3,3.1-22.7,4.8-34c0.4-2.9,1-6.1,0.9-8.7c-0.3-5.4,2.5-5.3,5.9-4.6c7.1,1.4,14-0.4,21.1-0.2c16.8,0.4,33.5-0.6,50.3-1.2
+       c12.4-0.4,24.9,0.3,37.3-0.8c15.9-1.4,31.9,0.2,47.8-1.1c14.3-1.2,28.5-0.4,42.8-0.8c76.7-1.9,153.5-1.1,230.2-0.7
+       c21.7,0.1,43.6-0.4,65.3,0.9c14.8,0.9,29.6-0.3,44.3,0.9c12.6,1.1,25.3-0.2,37.8,1c11,1.1,21.9-0.2,32.8,1
+       c12.8,1.4,25.5,0.4,38.3,0.8c6.2,0.2,7.1,1.3,8,7.5c1.9,12.4,4.2,24.8,6.3,37.1c2.2,13.2,4.5,26.3,6.7,39.5c2.2,13,4.5,26,6.6,39
+       c1.6,9.5,2.9,19,4.4,28.5c1.9,11.9,3.9,23.8,5.7,35.7c1.5,10.2,2.8,20.4,4.3,30.6c1.5,10.2,3.3,20.3,4.8,30.4
+       c1.5,10.5,2.8,21.1,4.2,31.6c1.5,11.2,3.3,22.3,4.8,33.4c1.2,8.6,2.1,17.2,3.2,25.8c1.2,9.4,2.6,18.8,3.8,28.2
+       c1.1,9.1,2.1,18.2,3.2,27.3c1.2,10.2,2.6,20.4,3.8,30.7c0.8,6.8,1.4,13.7,2.2,20.6c1.3,10.9,2.6,21.8,3.9,32.7
+       c0.8,7,1.4,14,2.1,21.1c1.3,12.1,2.9,24.1,3.8,36.2c0.6,7.5,1.4,15,2.2,22.6c1.4,13.2,2.9,26.4,3.9,39.7c0.6,8.2,1.4,16.4,2.1,24.6
+       c1.3,14.6,2.4,29.1,3.9,43.7c0.9,9,1.4,18,2.1,27.1c1.4,16.4,2.1,32.8,4,49.2c0.5,4.6,0.5,9.2,0.9,13.8c1.1,12,1.2,24.1,2.2,36.1
+       c1.2,14.8,2.1,29.6,3.1,44.4c0.6,9.9,1.2,19.7,1.9,29.6c1.2,15.8,2.1,31.6,3,47.4c0.6,10.2,1.4,20.4,2,30.6c1,16.8,2.1,33.6,3,50.4
+       c0.6,10.5,1.4,21,2,31.6c1,16.5,2.1,32.9,3,49.4c0.6,10.5,1.4,21,2,31.6c1,16.5,2.1,32.9,3,49.4c0.5,10,1.4,20,2,30.1
+       c1,15.3,2.1,30.6,3,45.9c0.5,9.7,1.3,19.4,2,29.1c1,14.6,2,29.2,3,43.9c0.9,13.5,2,26.9,3,40.4c1.3,17.9,2.7,35.8,4,53.7
+       c0.9,12.6,1.9,25.3,3,37.9c1,12.3,1.9,24.6,3,36.9c1.4,16,2.6,32.1,4,48.2c1.3,15.1,3,30.1,3.9,45.2c0,0.2,0,0.3,0,0.5
+       c1.8,14.1,3.6,11.9-11.4,13.3c-13.9,1.3-27.8,2.7-41.7,3.9c-8.7,0.8-17.4,1.4-26.1,2.1c-14.7,1.1-29.4,2.5-44.2,3.8
+       c-9.3,0.8-18.7,1.5-28.1,2.2c-14.2,1.2-28.4,2.6-42.7,3.9c-8.8,0.8-17.7,1.4-26.5,2.1c-14.6,1.1-29.1,2.4-43.7,3.8
+       c-8.7,0.8-17.4,1.4-26.1,2.1c-15.1,1.2-30.1,2.7-45.2,3.8c-9.7,0.7-19.3,2.4-29.1,2.1c-2.7-0.1-5.1,1.2-7.8,1.2c-2.9,0-4-0.9-4.2-4
+       c-1.2-16.4-2.3-32.8-4-49.1c-1.5-14-2.7-28.1-4-42.2c-1.4-15.8-3.4-31.6-4.9-47.4c-0.9-9-1.2-18.1-2.1-27.1
+       c-1.2-12.6-2.7-25.1-3.9-37.7c-0.8-8.8-1.1-17.7-2.1-26.6c-1.5-12.4-2-24.8-3.8-37.2c-1.3-8.8-1.4-17.7-2.2-26.6
+       c-1.2-12.7-2.9-25.4-3.8-38.2c-0.6-8.4-1.3-16.7-2.2-25.1c-1.3-13.4-2.7-26.8-3.9-40.2c-0.7-7.9-1.4-15.7-2.1-23.6
+       c-1.1-13.6-2.1-27.1-3.9-40.7c-1.2-9-1.3-18.1-2.2-27.1c-1.2-12.6-2.9-25.1-3.8-37.7c-0.6-8.2-1.3-16.4-2.1-24.6
+       c-1.4-13.5-2.5-27.1-3.8-40.7c-0.8-8.7-1.5-17.4-2.4-26c-1.2-12.6-2.1-25.1-3.6-37.7c-1-8.1-1.5-16.4-2.2-24.6
+       c-1.1-13.6-2.6-27.1-3.8-40.7c-0.8-8.5-1.5-17-2.2-25.6c-1.2-13.1-2.9-26.1-3.8-39.2c-0.6-7.9-1.4-15.7-2.1-23.6
+       c-1.2-13.6-2.4-27.1-3.8-40.7c-0.9-8.5-1.5-17-2.2-25.6c-1.2-13.1-2.8-26.1-3.8-39.2c-0.6-8.2-1.3-16.4-2.1-24.6
+       c-1.4-13.5-3-27.1-3.8-40.7c-0.5-8.6-1.6-17-2.2-25.6c-1.1-13.1-2.6-26.1-3.8-39.2c-0.8-8.5-1.3-17.1-2.1-25.6
+       C475.5,538.2,475.6,530.9,473.4,522.8z"/>
+   </g>
+   </svg>
+   
+   </svg>
+    </div>
+    <div class="frente2" style="display:none">
+      <img src="Meio cós frente.png" class="imgfrente" style="width:295px; margin-left: 0px">
+    </div>
+    <div class="frente4" style="display:none">
+      <img src="elastico cordao frente.png" class="imgfrente1" style="width:300px; margin-left: 0px;">
+    </div>
+    <div class="frente3" >
+        <img src="Jeans Normal Frente.png" class="imgfrente" style="width:295px; margin-left: 0px;">
+    </div>
+    <div class="frente5" style="display:none">
+      <img src="faixa verde.png" class="imgfrente2" style="width:310px; margin-left: -5px;margin-top: 15px;">
+    </div>
+    <div class="frente6" style="display:none">
+      <img src="faixa laranja.png" class="imgfrente2" style="width:310px; margin-left: -5px;margin-top: 15px;">
+    </div>
+    <div class="frente7" style="display:none">
+      <img src="faixa cinza.png" class="imgfrente2"style="width:310px; margin-left: -5px;margin-top: 15px;">
+    </div>
+    <div class="frente8" style="display:none">
+      <img src="faixa cinza fina.png" class="imgfrente2" style="width:310px; margin-left: -5px;margin-top: 15px;">
+    </div>
+    <div class="frente9" style="display:none">
+      <img src="Peito laranja.png" class="imgfrente1" style="width:225px ;height:590px;margin-left:16px">
+    </div>
+    <div class="frente10" style="display:none">
+      <img src="Peito verde.png" class="imgfrente1" style="width:225px ;height:590px;margin-left:16px">
+    </div>
+    <div class="frente11" style="display:none">
+      <img src="Peito cinza.png" class="imgfrente1" style="width:225px ;height:590px;margin-left:16px">
+    </div>
+    <div class="frente12" style="display:none">
+      <img src="bolso frente cima direito.png" class="imgfrente1" style="width:300px; margin-left: 0px;">
+    </div>
+    <div class="frente13" style="display:none">
+      <img src="bolso frente cima esquerdo.png" class="imgfrente1" style="width:300px; margin-left: 0px;">
+    </div>
+    <div class="frente14" style="display:none">
+      <img src="bolso p em cima direito frente.png" class="imgfrente1" style="width:300px; margin-left: -5px;">
+    </div>
+    <div class="frente15" style="display:none">
+      <img src="bolso p em cima esquerdo frente.png" class="imgfrente1" style="width:300px; margin-left: 0px;">
+    </div>
+    <div class="frente16" style="display:none">
+      <img src="bolso tampado baixo direito.png" class="imgfrente1" style="width:300px; margin-left: 0px;">
+    </div>
+    <div class="frente17" style="display:none">
+      <img src="bolso tampado baixo esquerdo.png" class="imgfrente1" style="width:300px; margin-left: 0px;">
+    </div>
+    <div class="frente18" style="display:none">
+      <img src="passador.png" class="imgfrente1" style="width:295px; margin-left: 0px;">
+    </div>
+</div>
+<div class="costas" id="costas">
+    <div class="costas2">
+      <svg version="1.1" id="Camada2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      viewBox="0 0 978 1742" width="300px" style="enable-background:new 0 0 978 1742;" xml:space="preserve">
+   <g>
+     <path id="corbasecostas" class="corbase" fill="" d="M473.4,522.8c-1.9,8.9-1.9,16.8-2.7,24.5c-1.4,13.9-2.9,27.7-3.9,41.7c-0.6,8.2-1.4,16.4-2.1,24.6
+       c-1.2,14.6-2.5,29.1-3.8,43.7c-0.8,9-1.5,18-2.3,27.1c-1.2,13.9-2.8,27.8-3.8,41.7c-0.6,8.5-1.3,17.1-2.1,25.6
+       c-1.3,14.2-2.5,28.4-3.8,42.7c-0.8,9.2-1.5,18.4-2.3,27.6c-1.2,13.7-2.2,27.5-3.7,41.2c-0.9,8.6-1.4,17.4-2.2,26.1
+       c-1.3,14.4-2.5,28.8-3.8,43.2c-0.8,8.8-1.5,17.7-2.3,26.6c-1.2,13.7-1.9,27.5-3.8,41.2c-0.6,4.5-0.5,9.2-1,13.8
+       c-1.7,17.3-2.5,34.8-4.3,52.1c-1.1,11.1-2,22.2-3,33.4c-1.4,15.5-2.8,31.1-4.1,46.6c-0.9,11.1-1.9,22.2-2.9,33.4
+       c-1.4,15.5-2.8,31.1-4.1,46.6c-0.9,11-1.9,21.9-2.9,32.9c-1.4,15.7-2.9,31.4-4.1,47.1c-0.9,11-1.9,21.9-2.9,32.9
+       c-1.5,15.7-2.7,31.4-4.1,47.1c-1,11-1.9,21.9-2.9,32.9c-1.5,16.8-3.4,33.6-4.9,50.4c-0.8,9.2-1.3,18.4-2.1,27.6
+       c-1.2,13.7-2.9,27.4-3.8,41.2c-0.6,8.2-1.4,16.4-2.1,24.6c-1.2,14.6-2.1,29.2-4,43.7c-0.3,2.5-0.2,5,0,7.5c0.2,4.2-1.9,5.6-5.8,5
+       c-10.9-1.7-21.9-2.1-32.8-3c-16.5-1.5-32.9-3.7-49.4-4.8c-9.4-0.6-18.7-1.5-28-2.3c-13.2-1.2-26.5-2.2-39.7-3.7
+       c-8.5-0.9-17-1.5-25.6-2.2c-14.6-1.2-29.1-2.4-43.7-4c-9.3-1-18.7-1.3-28.1-2.1c-13.2-1.2-26.4-2.9-39.7-3.8
+       c-8.2-0.6-16.4-1.4-24.6-2.1c-14.6-1.2-29.1-2.2-43.7-3.9c-4.2-0.5-8.5-0.7-12.8-1c-2.8-0.2-2.9-1.6-2.6-3.5
+       c1.6-10.4,2-20.9,3-31.3c1.2-13.4,2.9-26.8,3.8-40.2c0.6-8.7,1.4-17.4,2.1-26.1c1.2-15.4,2.3-30.8,4-46.2c1.1-10,1.3-20.1,2.1-30.1
+       c1.2-14.9,2.7-29.8,3.9-44.7c0.4-4.8,0.4-9.5,0.9-14.3c1.2-11.1,1.3-22.4,2.2-33.6c1.2-13.4,2.2-26.9,3.1-40.4
+       c0.9-13.6,2-27.2,3-40.9c1-13.6,2.1-27.2,3-40.9c0.9-14.5,2.2-28.9,3-43.4c0.8-14.1,2-28.2,3-42.4c1-14.6,2.1-29.2,3-43.9
+       c0.6-9.2,1.1-18.4,2-27.6c1.7-16.4,1.7-32.8,3.8-49.2c0.7-5.4,0.4-10.8,0.9-16.3c1.2-12.3,1.2-24.7,2.2-37.1
+       c1.2-14.9,2-29.9,3.1-44.9c1-13.6,2-27.2,2.9-40.9c1-15.7,3.1-31.4,3.8-47.2c0.5-11.5,1.7-23,2.3-34.6c0.8-14.9,2.6-29.8,3.8-44.7
+       c0.4-4.8,0.4-9.5,0.9-14.3c1.2-10.8,1.3-21.7,2.2-32.6c1.5-16.7,2.9-33.4,4.1-50.2c0.8-11.3,2.1-22.6,3-33.9
+       c1.3-16.5,3.3-33,4.9-49.5c0.9-9.3,1.2-18.7,2.1-28.1c1.2-12.2,2.7-24.4,3.9-36.7c0.8-8.2,1.1-16.4,2.1-24.6
+       c1.4-11.7,2.2-23.5,3.7-35.2c1-8,1.5-16,2.3-24c1.1-11.2,2.8-22.4,3.7-33.7c0.6-7.2,1.4-14.4,2.2-21.5c1.3-11.2,2.4-22.5,3.8-33.7
+       c0.8-6.8,1.4-13.7,2.2-20.5c1.7-13.8,2.2-27.7,4.8-41.4c1.3-6.6,1.4-13.4,2.2-20c1.2-9.9,2.9-19.7,3.7-29.7
+       c0.8-9.3,2.1-18.6,3.3-27.8c1.2-9.7,2.6-19.4,3.8-29.2c1.1-8.9,2-17.9,3.2-26.8c1.2-9.4,2.6-18.8,3.8-28.2c1.1-8.9,2-17.9,3.2-26.8
+       c1.5-11.3,3.1-22.7,4.8-34c0.4-2.9,1-6.1,0.9-8.7c-0.3-5.4,2.5-5.3,5.9-4.6c7.1,1.4,14-0.4,21.1-0.2c16.8,0.4,33.5-0.6,50.3-1.2
+       c12.4-0.4,24.9,0.3,37.3-0.8c15.9-1.4,31.9,0.2,47.8-1.1c14.3-1.2,28.5-0.4,42.8-0.8c76.7-1.9,153.5-1.1,230.2-0.7
+       c21.7,0.1,43.6-0.4,65.3,0.9c14.8,0.9,29.6-0.3,44.3,0.9c12.6,1.1,25.3-0.2,37.8,1c11,1.1,21.9-0.2,32.8,1
+       c12.8,1.4,25.5,0.4,38.3,0.8c6.2,0.2,7.1,1.3,8,7.5c1.9,12.4,4.2,24.8,6.3,37.1c2.2,13.2,4.5,26.3,6.7,39.5c2.2,13,4.5,26,6.6,39
+       c1.6,9.5,2.9,19,4.4,28.5c1.9,11.9,3.9,23.8,5.7,35.7c1.5,10.2,2.8,20.4,4.3,30.6c1.5,10.2,3.3,20.3,4.8,30.4
+       c1.5,10.5,2.8,21.1,4.2,31.6c1.5,11.2,3.3,22.3,4.8,33.4c1.2,8.6,2.1,17.2,3.2,25.8c1.2,9.4,2.6,18.8,3.8,28.2
+       c1.1,9.1,2.1,18.2,3.2,27.3c1.2,10.2,2.6,20.4,3.8,30.7c0.8,6.8,1.4,13.7,2.2,20.6c1.3,10.9,2.6,21.8,3.9,32.7
+       c0.8,7,1.4,14,2.1,21.1c1.3,12.1,2.9,24.1,3.8,36.2c0.6,7.5,1.4,15,2.2,22.6c1.4,13.2,2.9,26.4,3.9,39.7c0.6,8.2,1.4,16.4,2.1,24.6
+       c1.3,14.6,2.4,29.1,3.9,43.7c0.9,9,1.4,18,2.1,27.1c1.4,16.4,2.1,32.8,4,49.2c0.5,4.6,0.5,9.2,0.9,13.8c1.1,12,1.2,24.1,2.2,36.1
+       c1.2,14.8,2.1,29.6,3.1,44.4c0.6,9.9,1.2,19.7,1.9,29.6c1.2,15.8,2.1,31.6,3,47.4c0.6,10.2,1.4,20.4,2,30.6c1,16.8,2.1,33.6,3,50.4
+       c0.6,10.5,1.4,21,2,31.6c1,16.5,2.1,32.9,3,49.4c0.6,10.5,1.4,21,2,31.6c1,16.5,2.1,32.9,3,49.4c0.5,10,1.4,20,2,30.1
+       c1,15.3,2.1,30.6,3,45.9c0.5,9.7,1.3,19.4,2,29.1c1,14.6,2,29.2,3,43.9c0.9,13.5,2,26.9,3,40.4c1.3,17.9,2.7,35.8,4,53.7
+       c0.9,12.6,1.9,25.3,3,37.9c1,12.3,1.9,24.6,3,36.9c1.4,16,2.6,32.1,4,48.2c1.3,15.1,3,30.1,3.9,45.2c0,0.2,0,0.3,0,0.5
+       c1.8,14.1,3.6,11.9-11.4,13.3c-13.9,1.3-27.8,2.7-41.7,3.9c-8.7,0.8-17.4,1.4-26.1,2.1c-14.7,1.1-29.4,2.5-44.2,3.8
+       c-9.3,0.8-18.7,1.5-28.1,2.2c-14.2,1.2-28.4,2.6-42.7,3.9c-8.8,0.8-17.7,1.4-26.5,2.1c-14.6,1.1-29.1,2.4-43.7,3.8
+       c-8.7,0.8-17.4,1.4-26.1,2.1c-15.1,1.2-30.1,2.7-45.2,3.8c-9.7,0.7-19.3,2.4-29.1,2.1c-2.7-0.1-5.1,1.2-7.8,1.2c-2.9,0-4-0.9-4.2-4
+       c-1.2-16.4-2.3-32.8-4-49.1c-1.5-14-2.7-28.1-4-42.2c-1.4-15.8-3.4-31.6-4.9-47.4c-0.9-9-1.2-18.1-2.1-27.1
+       c-1.2-12.6-2.7-25.1-3.9-37.7c-0.8-8.8-1.1-17.7-2.1-26.6c-1.5-12.4-2-24.8-3.8-37.2c-1.3-8.8-1.4-17.7-2.2-26.6
+       c-1.2-12.7-2.9-25.4-3.8-38.2c-0.6-8.4-1.3-16.7-2.2-25.1c-1.3-13.4-2.7-26.8-3.9-40.2c-0.7-7.9-1.4-15.7-2.1-23.6
+       c-1.1-13.6-2.1-27.1-3.9-40.7c-1.2-9-1.3-18.1-2.2-27.1c-1.2-12.6-2.9-25.1-3.8-37.7c-0.6-8.2-1.3-16.4-2.1-24.6
+       c-1.4-13.5-2.5-27.1-3.8-40.7c-0.8-8.7-1.5-17.4-2.4-26c-1.2-12.6-2.1-25.1-3.6-37.7c-1-8.1-1.5-16.4-2.2-24.6
+       c-1.1-13.6-2.6-27.1-3.8-40.7c-0.8-8.5-1.5-17-2.2-25.6c-1.2-13.1-2.9-26.1-3.8-39.2c-0.6-7.9-1.4-15.7-2.1-23.6
+       c-1.2-13.6-2.4-27.1-3.8-40.7c-0.9-8.5-1.5-17-2.2-25.6c-1.2-13.1-2.8-26.1-3.8-39.2c-0.6-8.2-1.3-16.4-2.1-24.6
+       c-1.4-13.5-3-27.1-3.8-40.7c-0.5-8.6-1.6-17-2.2-25.6c-1.1-13.1-2.6-26.1-3.8-39.2c-0.8-8.5-1.3-17.1-2.1-25.6
+       C475.5,538.2,475.6,530.9,473.4,522.8z"/>
+   </g>
+   </svg>
+
+    </div>
+    <div class="costas1" style="display:none">
+      <img src="Meio Cós verso.png" class="imgcostas" style="width:295px; margin-top: -38px;margin-left:-2px">
+    </div>
+    <div class="costas3">
+        <img src="Jeans normal verso.png" class="imgcostas" style="width:295px; margin-top: -38px;margin-left:-2px">
+    </div>
+    <div class="costas4" style="display:none">
+      <img src="Meio Cós verso.png" class="imgcostas1" style="width:295px; margin-top: -38px;margin-left:-2px">
+  </div>
+  <div class="costas5" style="display:none">
+    <img src="faixa verde.png" class="imgcostas2" style="width:310px; margin-left: -5px;margin-top: 15px;">
+  </div>
+  <div class="costas6" style="display:none">
+    <img src="faixa laranja.png" class="imgcostas2" style="width:310px; margin-left: -5px;margin-top: 15px;">
+  </div>
+  <div class="costas7" style="display:none">
+    <img src="faixa cinza.png" class="imgcostas2" style="width:310px; margin-left: -5px;margin-top: 15px;">
+  </div>
+  <div class="costas8" style="display:none">
+    <img src="faixa cinza fina.png" class="imgcostas2" style="width:310px; margin-left: -5px;margin-top: 15px;">
+  </div>
+  <div class="costas9" style="display:none">
+    <img src="Peito verde.png" class="imgcostas" style="width:225px ;height:590px;margin-left:16px">
+  </div>
+  <div class="costas10" style="display:none">
+    <img src="Peito cinza.png" class="imgcostas" style="width:225px ;height:590px;margin-left:16px">
+  </div>
+  <div class="costas11" style="display:none">
+    <img src="bolso tampado baixo esquerdo.png" class="imgfrente1" style="width:300px; margin-left: 0px;">
+  </div>
+  <div class="costas12" style="display:none">
+    <img src="bolso tampado baixo direito.png" class="imgfrente1" style="width:300px; margin-left: 0px;">
+  </div>
+  <div class="costas13" style="display:none">
+    <img src="bolso em cima esquerdo tras.png" class="imgfrente1" style="width:300px; margin-left: 0px;margin-top:-50px">
+  </div>
+  <div class="costas14" style="display:none">
+    <img src="bolso em cima direito tras.png" class="imgfrente1" style="width:300px; margin-left: 0px;margin-top:-50px">
+  </div>
+  <div class="costas15" style="display:none">
+    <img src="bolso em cima tras.png" class="imgfrente1" style="width:300px; margin-left: 0px;margin-top:-50px">
+  </div>
+  <div class="costas16" style="display:none">
+    <img src="passador verso.png" class="imgfrente1" style="width:295px; margin-left: -3px;margin-top:-39px">
+  </div>
+</div>
+<div id="drag" class="drag">
+  <canvas id="list" class="list" width="800px" height="600px"></canvas></div>
+</div>
+
+<div class="switch__container2">
+  Frente
+  <input id="switch-shadow2" class="switch switch--shadow2" type="checkbox">
+  <label for="switch-shadow2"></label>
+  Verso
+</div>
+
+<div class="cores" id="cores">
+    <h2>Cores da Base</h2>
+    <div class="divisao1"></div>
+    <div class="optcolors">
+        <form>
+          <div class="cor1"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#fff" id="cor1"><label for="cor1">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+          <div class="cor2"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#000" id="cor2"><label for="cor2">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+          <div class="cor3"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#ed6840" id="cor3"><label for="cor3">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+          <div class="cor4"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#78705e" id="cor4"><label for="cor4">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+            <div class="cor5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#223b7b" id="cor5"><label for="cor5">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+            <div class="cor6"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#353a46" id="cor6"><label for="cor6">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+            <div class="cor7"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#2c313c" id="cor7"><label for="cor7">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+            <div class="cor8"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#9c836b" id="cor8" ><label for="cor8">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+          <div class="cor9"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#bca68e" id="cor9"><label for="cor9">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+          <div class="cor10"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#60585d" id="cor10"><label for="cor10">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+          <div class="cor11"><INPUT TYPE="radio" NAME="OPCAO" VALUE="#6d645b" id="cor11"><label for="cor11">
+            <span>
+              <img src="check-icn.svg" alt="Checked Icon" />
+            </span>
+            </label></div>
+
+          </form>
+              <div class="deletebase">
+                <input type="button" class="deletebase" id="deletebase" style="display: none;">
+                <label for="deletebase" id="deletebaselabel"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+              </div>
+    </div>
+
+</div>
+<div class="coresb" id="coresb" style="visibility:hidden ;">
+  <h2>Faixas</h2>
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="whitebase1"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="whitebase1" checked><label for="whitebase1">
+              <span>
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 460.775 460.775" style="enable-background:new 0 0 460.775 460.775;" xml:space="preserve">
+<path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55
+	c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55
+	c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505
+	c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55
+	l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719
+	c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"/>
+
+</svg>
+
+              </span>
+            </label></div>
+          <div class="blackbase1"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="blackbase1"><label for="blackbase1">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="bluebase1"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="bluebase1"><label for="bluebase1">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="redbase1"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="redbase1"><label for="redbase1">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="yellowbase1"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="yellowbase1"><label for="yellowbase1">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase1" style="display:none"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="greenbase1"><label for="greenbase1">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase12" style="display:none"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op7" id="greenbase12"><label for="greenbase12">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase13" style="display:none"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op8" id="greenbase13"><label for="greenbase13">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          </form>
+            <div class="deletebase">
+              <input type="button" class="deletebase" id="deletebase" style="display: none;">
+              <label for="deletebase" id="deletebaselabel1"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+            </div>
+  </div>
+
+</div>
+<div class="coresGE" id="coresGE" style="visibility:hidden;">
+  <h2>Cores da Gola</h2><!--Gola Exterior-->
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="whitebase2"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="whitebase2" checked><label for="whitebase2">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="blackbase2"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="blackbase2"><label for="blackbase2">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="bluebase2"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="bluebase2"><label for="bluebase2">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="redbase2"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="redbase2"><label for="redbase2">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="yellowbase2"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="yellowbase2"><label for="yellowbase2">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase2"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="greenbase2"><label for="greenbase2">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div></form>
+            <div class="deletebase">
+              <input type="button" class="deletebase" id="deletebase" style="display: none;">
+              <label for="deletebase" id="deletebaselabel2"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+            </div>
+            
+  </div>
+
+</div>
+<div class="coresGI" id="coresGI" style="visibility:hidden;">
+  <h2>Cores da Carcela</h2>
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="whitebase3"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="whitebase3" checked><label for="whitebase3">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="blackbase3"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="blackbase3"><label for="blackbase3">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="bluebase3"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="bluebase3"><label for="bluebase3">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="redbase3"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="redbase3"><label for="redbase3">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="yellowbase3"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="yellowbase3"><label for="yellowbase3">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase3"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="greenbase3"><label for="greenbase3">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div></form>
+            <div class="deletebase">
+              <input type="button" class="deletebase" id="deletebase" style="display: none;">
+              <label for="deletebase" id="deletebaselabel3"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+            </div>
+  </div>
+
+</div>
+<div class="coresP" id="coresP" style="visibility:hidden;">
+  <h2>Cores do Punho</h2>
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="whitebase4"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="whitebase4" checked><label for="whitebase4">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="blackbase4"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="blackbase4"><label for="blackbase4">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="bluebase4"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="bluebase4"><label for="bluebase4">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="redbase4"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="redbase4"><label for="redbase4">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="yellowbase4"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="yellowbase4"><label for="yellowbase4">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase4"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="greenbase4"><label for="greenbase4">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div></form>
+          <div class="deletebase">
+            <input type="button" class="deletebase" id="deletebase" style="display: none;">
+            <label for="deletebase" id="deletebaselabel"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+          </div>
+  </div>
+
+</div>
+<div class="coresVE" id="coresVE" style="visibility:hidden;">
+  <h2>Opções de Bolsos</h2><!--Manga-->
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="whitebase5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="whitebase5" checked><label for="whitebase5">
+              <span>
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 460.775 460.775" style="enable-background:new 0 0 460.775 460.775;" xml:space="preserve">
+<path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55
+	c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55
+	c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505
+	c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55
+	l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719
+	c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"/>
+                </svg>
+              </span>
+            </label></div>
+          <div class="blackbase5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="blackbase5"><label for="blackbase5">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="bluebase5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="bluebase5"><label for="bluebase5">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="redbase5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="redbase5"><label for="redbase5">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="yellowbase5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="yellowbase5"><label for="yellowbase5">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="greenbase5"><label for="greenbase5">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="base05"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op7" id="base05"><label for="base05">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="base5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op8" id="base5"><label for="base5">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="base15"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op9" id="base15"><label for="base15">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div></form>
+            <div class="deletebase">
+              <input type="button" class="deletebase" id="deletebase" style="display: none;">
+              <label for="deletebase" id="deletebaselabel4"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+            </div>
+            
+  </div>
+
+</div>
+<div class="coresVD" id="coresVD" style="visibility:hidden;">
+  <h2>Cores Peitilho 1</h2>
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="whitebase6"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="whitebase6" checked><label for="whitebase6">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="blackbase6"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="blackbase6"><label for="blackbase6">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="bluebase6"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="bluebase6"><label for="bluebase6">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="redbase6"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="redbase6"><label for="redbase6">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="yellowbase6"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="yellowbase6"><label for="yellowbase6">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase6"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="greenbase6"><label for="greenbase6">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div></form>
+          <div class="deletebase">
+            <input type="button" class="deletebase" id="deletebase" style="display: none;">
+            <label for="deletebase" id="deletebaselabel"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+          </div>
+  </div>
+
+</div>
+<div class="coresBF" id="coresBF" style="visibility:hidden;">
+  <h2>Cores Peitilho 2</h2>
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="whitebase7"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="whitebase7" checked><label for="whitebase7">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="blackbase7"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="blackbase7"><label for="blackbase7">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="bluebase7"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="bluebase7"><label for="bluebase7">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="redbase7"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="redbase7"><label for="redbase7">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="yellowbase7"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="yellowbase7"><label for="yellowbase7">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase7"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="greenbase7"><label for="greenbase7">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div></form>
+          <div class="deletebase">
+            <input type="button" class="deletebase" id="deletebase" style="display: none;">
+            <label for="deletebase" id="deletebaselabel"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+          </div>
+  </div>
+
+</div>
+<div class="coresBB" id="coresBB" style="visibility:hidden;">
+  <h2>Cores do Friso</h2>
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="whitebase8"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="whitebase8" checked><label for="whitebase8">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="blackbase8"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="blackbase8"><label for="blackbase8">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="bluebase8"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="bluebase8"><label for="bluebase8">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="redbase8"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="redbase8"><label for="redbase8">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="yellowbase8"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="yellowbase8"><label for="yellowbase8">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="greenbase8"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="greenbase8"><label for="greenbase8">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div></form>
+          <div class="deletebase">
+            <input type="button" class="deletebase" id="deletebase" style="display: none;">
+            <label for="deletebase" id="deletebaselabel"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+          </div>
+  </div>
+
+</div>
+<input type="file"  accept="image/*" name="image" id="uploader" style="display: none;">
+  <label for="uploader" class="uploader" style="cursor: pointer;">Enviar Imagem</label>
+
+</div>
+<div class="botaoacabamentos">
+  <input type="button" class="botaoacabamento" id="botaoacabamento" style="display: none;">
+  <label for="botaoacabamento" id="btnacabalabel"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" style="width: 40px; height:40px">
+ <polygon style="fill:#FF9D49;" points="393.29,213.665 142.441,464.524 87.044,424.954 345.817,150.364 "/>
+ <polygon style="fill:#FFCC75;" points="353.73,158.277 87.044,424.954 47.473,369.557 298.333,118.708 "/>
+ <polygon style="fill:#BD1515;" points="512,94.965 440.78,166.185 377.475,118.708 464.522,47.486 "/>
+ <polygon style="fill:#F2484B;" points="464.516,47.482 385.382,126.615 345.817,71.224 417.038,0.002 "/>
+ <g>
+   
+     <rect x="335.974" y="75.292" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 731.5841 -18.1559)" style="fill:#082947;" width="67.157" height="134.292"/>
+   <polygon style="fill:#082947;" points="71.22,488.261 0,511.998 23.736,440.776 63.305,448.692 	"/>
+ </g>
+ <polygon style="fill:#dfd2b1;" points="47.473,369.557 23.736,440.776 71.22,488.261 142.441,464.524 "/>
+ </svg>
+ </label></div>
+
+<div class="botaocores" id="botaocores">
+  <input type="button" class="botaocor" id="botaocor" style="display:none ;"><label for="botaocor" id="btncor"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocoresbotoes">
+  <input type="button" class="botaocorbotoes" id="botaocorbotoes" style="display:none ;"><label for="botaocorbotoes" id="btncorbtn"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocoresgola">
+  <input type="button" class="botaocorgola" id="botaocorgola" style="display:none ;"><label for="botaocorgola" id="btncorgola"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocorescarcela">
+  <input type="button" class="botaocorcarcela" id="botaocorcarcela" style="display:none ;"><label for="botaocorcarcela" id="btncorcarcela"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocoresvista">
+  <input type="button" class="botaocorvista" id="botaocorvista" style="display:none ;"><label for="botaocorvista" id="btncorvista"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocorespunho">
+  <input type="button" class="botaocorpunho" id="botaocorpunho" style="display:none ;"><label for="botaocorpunho" id="btncorpunho"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocorespeitilho1">
+  <input type="button" class="botaocorpeitilho1" id="botaocorpeitilho1" style="display:none ;"><label for="botaocorpeitilho1" id="btncorpeitilho1"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocorespeitilho2">
+  <input type="button" class="botaocorpeitilho2" id="botaocorpeitilho2" style="display:none ;"><label for="botaocorpeitilho2" id="btncorpeitilho2"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocoresfriso">
+  <input type="button" class="botaocorfriso" id="botaocorfriso" style="display:none ;"><label for="botaocorfriso" id="btncorfriso"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+</html>
