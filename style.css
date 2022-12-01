@@ -446,12 +446,14 @@ border-bottom:1px solid #919191;
     }
 
     .social_masculino{ 
-        position: absolute;
-        padding-left:40px;
-        padding-right: 30px;
-        padding-bottom: 30px;
-        width: 380px;        
-        height: 510px;
+     position: absolute;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left: -13px;
+    width: 380px;
+    height: 510px;
+    padding-top: 80px;
     }
     .frente{
         margin:0;
@@ -523,15 +525,15 @@ border-bottom:1px solid #919191;
     .switch__container2{
         display: flex;
         position: absolute;
-        left:145px;
-        margin-top:550px;
+     left: 90px;
+    margin-top: 535px;
         vertical-align: baseline;
         z-index: 13;
     }
     .drag{
         position: absolute;
         width: 360px !important;
-        height: 500px !important;
+        height: 480px !important;
         
     }
     .canvas-container,canvas, #list{
@@ -558,16 +560,16 @@ border-bottom:1px solid #919191;
     .cores,.coresb,.coresGE, .coresGI,.coresP, .coresVE, .coresVD,.coresBF,.coresBB{
         margin-top:50px;
             visibility: hidden;
-            width: 300px;
-            height: 400px;
-            left:115px;
+    width: 220px;
+    height: 400px;
+    left: 90px;
             z-index: 22;
     }
 
     .optcolors{
-        margin-top: 14%;
-        width: 100%;
-        margin-left: 20px; 
+    margin-top: 16%;
+    width: 100%;
+    margin-left: 10px; 
       }
     .optcolors form{
         display: grid;
@@ -603,8 +605,8 @@ border-bottom:1px solid #919191;
 
     .acabamentos{
     margin-top:50px;
-    width: 300px;
-    height: 360px;
+    width: 220px;
+    height: 390px;
     z-index: 21;
     left: -10px;
     }
